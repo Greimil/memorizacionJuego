@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/memorizacionJuego/static/css/main.15c9036c.chunk.css",
+    "main.js": "/memorizacionJuego/static/js/main.184b6fea.chunk.js",
+    "main.js.map": "/memorizacionJuego/static/js/main.184b6fea.chunk.js.map",
+    "runtime-main.js": "/memorizacionJuego/static/js/runtime-main.1b1c2cbd.js",
+    "runtime-main.js.map": "/memorizacionJuego/static/js/runtime-main.1b1c2cbd.js.map",
+    "static/js/2.af40de84.chunk.js": "/memorizacionJuego/static/js/2.af40de84.chunk.js",
+    "static/js/2.af40de84.chunk.js.map": "/memorizacionJuego/static/js/2.af40de84.chunk.js.map",
+    "index.html": "/memorizacionJuego/index.html",
+    "static/css/main.15c9036c.chunk.css.map": "/memorizacionJuego/static/css/main.15c9036c.chunk.css.map",
+    "static/js/2.af40de84.chunk.js.LICENSE.txt": "/memorizacionJuego/static/js/2.af40de84.chunk.js.LICENSE.txt",
+    "static/media/GTA-VICE-CYTY--memory-Ga.d41ee06b.png": "/memorizacionJuego/static/media/GTA-VICE-CYTY--memory-Ga.d41ee06b.png",
+    "static/media/auntie.2749486d.png": "/memorizacionJuego/static/media/auntie.2749486d.png",
+    "static/media/candy.6d0d03bc.jpg": "/memorizacionJuego/static/media/candy.6d0d03bc.jpg",
+    "static/media/diaz.4ce3696f.jpg": "/memorizacionJuego/static/media/diaz.4ce3696f.jpg",
+    "static/media/diegoMendez.c89fedb4.webp": "/memorizacionJuego/static/media/diegoMendez.c89fedb4.webp",
+    "static/media/lance.773988c2.jpg": "/memorizacionJuego/static/media/lance.773988c2.jpg",
+    "static/media/mercedes.14375dea.jpg": "/memorizacionJuego/static/media/mercedes.14375dea.jpg",
+    "static/media/one.a594aa7e.webp": "/memorizacionJuego/static/media/one.a594aa7e.webp",
+    "static/media/paul.bae95b40.webp": "/memorizacionJuego/static/media/paul.bae95b40.webp",
+    "static/media/sonnyForrelli.df6f92d9.webp": "/memorizacionJuego/static/media/sonnyForrelli.df6f92d9.webp",
+    "static/media/tommyVercetti.8dac0c85.webp": "/memorizacionJuego/static/media/tommyVercetti.8dac0c85.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b1c2cbd.js",
+    "static/js/2.af40de84.chunk.js",
+    "static/css/main.15c9036c.chunk.css",
+    "static/js/main.184b6fea.chunk.js"
+  ]
+}
