@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Header and score styles */
+
+#logoIMG{
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
+
+.anuncioContainer{
+    background-color: #fff;
+    width: 320px;
+    height: 320px;
+    font-size: 24px;
+    border-radius: 10px;
+    margin: 60px auto;
+    color: black;
+    position: absolute;
+    left: 41%;
+    display: none;
+    z-index: 2;
+   
+}
+
+.anuncioContainer p {
+    margin: 10px;
+    text-align: justify;
+}
+
+.anuncioContainer h3{
+    text-align: center;
+    color: #dd3d95;
+}
+
+
+#spanCancel{
+    position: relative;
+    left: 285px;
+    top: 5px;
+}
+
+#spanCancel:hover{
+    
+    color:#dd3d95;
+}
+
+.removeAnuncio{
+    display: block;
+    transition: .4s;
+}
+
+.scoretable{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+/* Cards Styles */
+
+.cardContainer{
+    display: grid;
+    /* display: flex; */
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    /* height: 75vh; */
+    width: 100%;
+    background-color: rgb(150, 142, 142);
+    flex-wrap: wrap;
+}
+
+.flexContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.cardBorder{
+    
+    width: 330px;
+    height: 320px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 15px;    
+}
+
+.cardBorder:hover{
+  
+    border:1px solid #dd3d95 ;
+    color: #dd3d95;
+}
+
+.imgCard{
+    width: 300px;
+    height: 250px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 15px;   
+}
+
+
+
+
+.winScreen {
+    width: 100%;
+   
+    text-align: center;
+}
+
+
+.arr1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+
+.arr2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+
+.arr3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.arr4 {
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+.arr5 {
+    grid-column: 5/6;
+    grid-row: 1/2;
+}
+
+
+.abaj6 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+
+.abaj7 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+
+.abaj8 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.abaj9 {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.abaj10 {
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 1870px) {
+    .cardContainer {
+        grid-template-rows: repeat(3, 1fr);
+
+    }
+}
+
